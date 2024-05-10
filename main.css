@@ -1,0 +1,24 @@
+@import url('https://sheriffcarry.github.io/Nameless.css');
+:root{
+    --clr-primary-100: 21, 100%, 50% !important;
+    --clr-primary-200: var(--clr-primary-100) !important;
+    --clr-primary-300: var(--clr-primary-100) !important;
+    --clr-primary-400: var(--clr-primary-100) !important;
+    --clr-neutral-900: 0, 0%, 7% !important;
+    --clr-neutral-800: 0, 0%, 11% !important;
+    --clr-neutral-700: 0, 0%, 14% !important;
+    --clr-neutral-600: 0, 0%, 18% !important;
+    --img-wallpaper-filtered: url('https://cdn.discordapp.com/attachments/1194582175023116298/1194582524958089307/padres_kirk.PNG?ex=663e99ec&is=663d486c&hm=46105f48094b725e8022f062b88f2fa8744fd7478dad7fa7024f042c2e378bb0&');
+    --branding: url('https://cdn.discordapp.com/attachments/1194582175023116298/1194582524958089307/padres_kirk.PNG?ex=663e99ec&is=663d486c&hm=46105f48094b725e8022f062b88f2fa8744fd7478dad7fa7024f042c2e378bb0&');
+}
+.interface>.left-icons ~ .logo[src*="assets"]{
+    content: var(--branding) !important;
+    height: 65px !important;
+    animation: none;
+}
+.message .item-btn.LEGENDARY{
+    background: hsl(42, 88%, 67%) !important;
+}
+.crosshair-static{
+    visibility: visible !important;
+}
